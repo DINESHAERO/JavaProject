@@ -20,6 +20,10 @@ public class Project {
 	public void bikeNO() {
 		System.out.println("tn83r0946");
 	}
+	
+	public void age() {
+		System.out.println("25");
+	}
 	public static void main(String[] args) {
 		Project p = new Project();
 		p.email();
@@ -27,5 +31,6 @@ public class Project {
 		p.phone();
 		p.empId();
 		p.bikeNO();
+		p.age();
 	}
 }
